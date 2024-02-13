@@ -141,7 +141,7 @@
 
   .talentHead {
     font-size: 46px;
-    margin-bottom: 175px;
+    margin-bottom: 80px;
   }
 
   .talentHead p span {
@@ -186,10 +186,12 @@
   /* Talent wrapper section  */
 
   .talent-wrapper {
-    width: 80%;
+    width: 100%;
     align-self: center;
     justify-self: center;
-    margin-left: 6rem;
+    /* margin-left: 6rem; */
+    padding: 50px;
+    gap: 50px;
   }
 
   .talent-top-wrapper {
@@ -210,11 +212,12 @@
   }
 
   .t--content p {
-    font-size: 60px;
+    font-size: 40px;
+    width: 100%;
   }
 
   .t--content > p span {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .t--content > button {
@@ -224,7 +227,15 @@
   .talent-low-wrapper {
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
+  }
+ 
+  .team {
+    margin: 3rem 0 5rem 0;
+  }
+
+  .btn-wrapperOne {
+    margin: 3rem 0 5rem 0;
   }
 
   /* CardRow */
@@ -283,7 +294,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 4rem;
-    padding: 0 2.5rem 199px 2.5rem;
+    padding: 0 2.5rem 120px 2.5rem;
     margin-top: -150px;
   
   }
