@@ -169,11 +169,8 @@ body {
   border: none;
   transition: all 0.5s ease-in-out;
   text-decoration: none;
-  -webkit-transition:;
-  -moz-transition:;
-  -ms-transition:;
-  -o-transition:;
 }
+
 .hire:link,
 .hire:visited {
   border: 1px solid #c1c1c1;
@@ -228,14 +225,11 @@ body {
   text-align: center;
 }
 
-
-
 .mainHero {
   display: flex;
   align-items: center;
   background-color: var(--main-bg-white);
   flex-direction: column;
-
 }
 
 .heroBox {
@@ -243,7 +237,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 84px;
- 
 }
 
 .heroFrels {
@@ -251,7 +244,6 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  
 }
 
 .heroFrelsOne {
@@ -337,7 +329,6 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-
 
 .inputCon {
   margin: 30px 0;
@@ -429,7 +420,7 @@ button {
 .heroBtn button {
   color: var(--primary-btn-one);
   border-color: var(--primary-btn-one);
-} 
+}
 
 .fig-con {
   text-align: center;
@@ -449,7 +440,7 @@ button {
   flex-wrap: unset;
 }
 
-.fig-con .btn-wrapper::-webkit-scrollbar{
+.fig-con .btn-wrapper::-webkit-scrollbar {
   display: none;
 }
 
@@ -460,7 +451,6 @@ button {
   background: none;
   font-weight: 700;
   padding: 1.2rem;
-  
 }
 
 /* Talent section */
@@ -587,7 +577,6 @@ button {
   width: 290px;
 }
 
-
 .talentImageCard .container:hover img {
   transform: scale(1.1);
   transition-duration: 600ms;
@@ -604,13 +593,13 @@ button {
 }
 
 /* Talent warapper Section  */
-.talent-wrapper{
-  background: linear-gradient(116deg, rgba(0,
-  0, 0, 0.4) 29.24%,
-  rgba(0,0,0,0) 55.02%
-  
-  ),
-  url(/image/Frame\ 35\ 1.png), lightgray 50% / cover no-repeat;
+.talent-wrapper {
+  background: linear-gradient(
+      116deg,
+      rgba(0, 0, 0, 0.4) 29.24%,
+      rgba(0, 0, 0, 0) 55.02%
+    ),
+    url(/image/Frame\ 35\ 1.png), lightgray 50% / cover no-repeat;
   margin: 8rem 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -620,18 +609,16 @@ button {
   justify-content: center;
   align-items: center;
   gap: 200px;
- 
- 
 }
 
-.talent-top-wrapper{
+.talent-top-wrapper {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   display: flex;
 }
 
-.t--content{
+.t--content {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -640,7 +627,7 @@ button {
   padding: 3rem 4.5rem;
 }
 
-.t--content p{
+.t--content p {
   color: #efefef;
   font-size: 80px;
   font-family: "Maven Pro", sans-serif;
@@ -648,7 +635,7 @@ button {
   width: 80%;
 }
 
-.t--content > p span{
+.t--content > p span {
   color: #efefef;
   font-size: 80px;
   font-weight: lighter;
@@ -656,8 +643,7 @@ button {
   word-wrap: break-word;
 }
 
-
-.t--content > button{
+.t--content > button {
   color: #efefef;
   background: #9462ff;
   padding: 10px;
@@ -670,7 +656,7 @@ button {
 
 /* /lower side/ */
 
-.talent-low-wrapper{
+.talent-low-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -679,12 +665,12 @@ button {
   gap: 20px;
 }
 
-.card-wrapper{
+.card-wrapper {
   background: #efefef;
   border-radius: 20px;
 }
 
-.card{
+.card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -697,26 +683,21 @@ button {
   width: 100%;
 }
 
-
-
-.card > div .paragraph{
+.card > div .paragraph {
   color: #3d3d3d;
   font-size: 36px;
   font-weight: 500;
   font-family: "Maven Pro", sans-serif;
   text-wrap: wrap;
   /* text-align: left; */
-
 }
 
-
-.card > div p span{
+.card > div p span {
   color: #3d3d3d;
   /* font-size: 36px; */
   font-family: "Cormorant Garamond", sans-serif;
   font-weight: 300;
   text-wrap: wrap;
-  
 }
 
 .card > p {
@@ -727,8 +708,7 @@ button {
   text-wrap: wrap;
 }
 
-
-.team{
+.team {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 64px;
@@ -736,26 +716,21 @@ button {
   margin: 3rem 0 9rem 0;
   text-align: center;
   color: var(--font-color);
-  
 }
 
-.team p span{
-
+.team p span {
   font-family: "Cormorant Garamond", sans-serif;
   font-weight: 700;
   font-size: 64px;
-  
 }
 
-.btn-wrapperOne{
-
+.btn-wrapperOne {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 17px;
   margin: 3rem 0 9rem 0;
   flex-wrap: wrap;
-  
 }
 
 /* sol */
@@ -779,7 +754,7 @@ button {
   display: inline-flex;
   color: var(--font-color);
   font-weight: 500;
-  word-wrap: break-word; 
+  word-wrap: break-word;
   background: transparent;
   cursor: pointer;
 }
@@ -825,12 +800,9 @@ button {
   color: var(--Black-900, #3d3d3d);
   font-family: "Maven Pro", sans-serif;
   margin-bottom: 3rem;
-
 }
 
-
-
-.btn2{
+.btn2 {
   gap: 36px;
   padding: 15px 20px;
   justify-content: center;
@@ -849,17 +821,16 @@ button {
 
 .btn2:hover {
   background-color: #4f23b0;
-}  
-
-.card-two{
-  border-radius: 25px;
-  width: 100%;
-  background: var(--Product-class-Blue-500, #2f41ff); 
-  flex-direction: column;
-
 }
 
-.card-two > .titleCon{
+.card-two {
+  border-radius: 25px;
+  width: 100%;
+  background: var(--Product-class-Blue-500, #2f41ff);
+  flex-direction: column;
+}
+
+.card-two > .titleCon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -867,8 +838,7 @@ button {
   gap: 2rem;
 }
 
-
-.title{
+.title {
   color: var(--White-100, #efefef);
   text-align: center;
   font-size: 45px;
@@ -883,7 +853,7 @@ button {
   font-family: "Poppins", monospace;
 }
 
-.card-two > .titleCon > .direction{
+.card-two > .titleCon > .direction {
   display: none;
 
   /* here */
@@ -895,19 +865,16 @@ button {
   justify-content: center;
 }
 
-.card-two .image-wrapper-one{  
+.card-two .image-wrapper-one {
   display: flex;
   margin-top: 115px;
   padding: 3rem;
-  
 }
 
-.card-two > div > img{
+.card-two > div > img {
   margin-left: -15px;
   width: 65px;
 }
-
-
 
 /* action */
 
@@ -960,7 +927,6 @@ button {
   align-items: center;
   display: inline-flex;
   text-align: center;
-
 }
 
 .inner-box > div > p:nth-child(1) {
@@ -1016,7 +982,6 @@ button {
   margin-left: -12px;
 }
 
-
 .lower-wrapper .titleBox p:nth-child(1) {
   text-align: center;
   color: var(--font-color);
@@ -1024,7 +989,6 @@ button {
   font-size: 18px;
   font-family: "Poppins";
   word-wrap: break-word;
-
 }
 .lower-wrapper .titleBox p:nth-child(2) {
   text-align: center;
@@ -1033,10 +997,7 @@ button {
   font-size: 18px;
   font-family: "Cormorant Garamond";
   word-wrap: break-word;
-
 }
-
-
 
 .one {
   background-color: #7c30f7;
@@ -1052,21 +1013,17 @@ button {
   background-color: #ece8ff;
 }
 
-
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
   padding: 0 2.5rem 199px 2.5rem;
   margin-top: -150px;
-
 }
 
 .mt-minus {
   margin-top: -4em;
 }
-
-
 
 /* footer */
 footer {
@@ -1082,29 +1039,26 @@ footer {
   background-size: 100mm;
   background-position: right bottom;
   padding: 84px 0;
-
 }
-
 
 .footer-wrapper {
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
   justify-content: flex-end;
   max-width: 1320px;
   padding: 16px;
   margin: 0 45px;
 }
 
-.footer-columns  {
+.footer-columns {
   display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- justify-content: start;
- align-items: start;
- gap: 40px;
- padding: 24px 8px 16px 8px;
- margin: 0 auto;
-
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 40px;
+  padding: 24px 8px 16px 8px;
+  margin: 0 auto;
 }
 
 .footer-columns ul {
@@ -1121,7 +1075,7 @@ footer {
   font-weight: 600;
 }
 
-.footer-columns ul a:hover{
+.footer-columns ul a:hover {
   color: #4c3d3d;
   text-decoration: underline;
 }
@@ -1131,9 +1085,9 @@ footer {
 }
 
 .footer-columns h3 {
- margin-bottom: 25px;
- color: #6d6d6d;
- font-family: "Montserrat", sans-serif;
- font-size: 18px;
- font-weight: 500;
+  margin-bottom: 25px;
+  color: #6d6d6d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
 }
